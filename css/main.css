@@ -1,0 +1,45 @@
+:root {
+    --color-fuente: #000;
+    --color-fondo: #fafafa;
+    --color-fuente2: rgb(115, 119, 114);
+    font-family: "Avenir-Roman";
+  }
+  
+  body {
+    background-color: var(--color-fondo);
+    color: var(--color-fuente);
+    font-family: "Avenir-Roman";
+    margin: 0 5%;
+  
+  }
+
+  .narrativa {
+    font-size: 18px;
+    color: var(--color-fuente);
+    text-align: justify;
+    line-height: 18px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .logo{
+    border-radius: 50%;
+  }
+
+  .iconos {
+    max-width: 100%;
+    display: block;
+    overflow: auto;
+    float: left;
+    padding: 0px;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+  }
+
+  .pruebas {
+    width: 100%;
+    display: block;
+    background-image: none;
+  }
