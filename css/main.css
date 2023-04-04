@@ -3,6 +3,7 @@
     --color-fondo: #fafafa;
     --color-fuente2: rgb(115, 119, 114);
     font-family: "Avenir-Roman";
+    margin: 0;
   }
   
   body {
@@ -47,6 +48,9 @@
   .icon{
     
   border-radius: 50%;
+  display: inline-flex;
+
+  
   }
 
   .iconos {
@@ -80,7 +84,8 @@
     margin: auto;
     font-weight: 700;
   }
+  .textarea{
+    resize: none;
+  }
 
-/* .btn-group{
-  margin: auto;
-} */
+
