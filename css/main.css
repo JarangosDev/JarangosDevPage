@@ -14,18 +14,39 @@
   }
 
   .narrativa {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--color-fuente);
     text-align: justify;
     line-height: 18px;
   }
 
-  h1{
+  h1 {
     text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .logo{
     border-radius: 50%;
+  }
+  .icon{
+    
+  border-radius: 50%;
   }
 
   .iconos {
@@ -42,4 +63,11 @@
     width: 100%;
     display: block;
     background-image: none;
+  }
+
+  /* .active {
+    background-color: rgb(212, 216, 0);
+  } */
+  .cpr {
+    text-align: center;
   }
