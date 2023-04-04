@@ -64,10 +64,6 @@
     display: block;
     background-image: none;
   }
-
-  /* .active {
-    background-color: rgb(212, 216, 0);
-  } */
   .cpr {
     text-align: center;
   }
@@ -84,3 +80,7 @@
     margin: auto;
     font-weight: 700;
   }
+
+/* .btn-group{
+  margin: auto;
+} */
