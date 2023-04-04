@@ -71,3 +71,16 @@
   .cpr {
     text-align: center;
   }
+  #result2{
+    text-align: center;
+    font-weight: 700;
+  }
+  .modal-title{
+    font-weight: 700;
+    margin: auto;
+  }
+  #result3{
+    text-align: center;
+    margin: auto;
+    font-weight: 700;
+  }
