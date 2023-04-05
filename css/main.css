@@ -4,6 +4,7 @@
     --color-fuente2: rgb(115, 119, 114);
     font-family: "Avenir-Roman";
     margin: 0;
+    padding: 0;
   }
   
   body {
@@ -88,5 +89,8 @@
   .textarea{
     resize: none;
   }
-
+  .footer2{
+    margin: 0% 0%;
+    width: 100%;
+  }
 
