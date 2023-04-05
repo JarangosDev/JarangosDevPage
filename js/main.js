@@ -99,17 +99,17 @@ function imc() {
   peso = document.getElementById("peso").value;
   altura = document.getElementById("altura").value;
   resultado = parseInt(peso) / ((parseInt(altura)/100)**2);
-  document.getElementById("result2").value = resultado.toFixed(1);
+  document.getElementById("result2").innerHTML = resultado.toFixed(1);
 
   if(resultado < 18.5){
-    document.getElementById("result2").innerHTML = `Su composición comporal es: Peso inferior al normal.`;
+    document.getElementById("exampleModalLabel").innerHTML = `Su composición comporal es: Peso inferior al normal.`;
 
   }else if (resultado >= 18.5 && resultado < 24.9) {
-    document.getElementById("result2").innerHTML = `Su composición comporal es: Normal.`;
+    document.getElementById("exampleModalLabel").innerHTML = `Su composición comporal es: Normal.`;
   } else if(resultado >= 24.9 && resultado < 30){
-    document.getElementById("result2").innerHTML = `Su composición comporal es: Peso superior al normal.`;
+    document.getElementById("exampleModalLabel").innerHTML = `Su composición comporal es: Peso superior al normal.`;
   }else{
-    document.getElementById("result2").innerHTML = `Su composición comporal es: Obesidad.`;
+    document.getElementById("exampleModalLabel").innerHTML = `Su composición comporal es: Obesidad.`;
   }
 
 }
