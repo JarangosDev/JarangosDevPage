@@ -11,7 +11,7 @@
     background-color: var(--color-fondo);
     color: var(--color-fuente);
     font-family: "Avenir-Roman";
-    margin: 0 5%;
+    margin: 0;
   
   }
 
@@ -92,5 +92,8 @@
   .footer2{
     margin: 0% 0%;
     width: 100%;
+  }
+  .ctn{
+    margin: 5%;
   }
 
